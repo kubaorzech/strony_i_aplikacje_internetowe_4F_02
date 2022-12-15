@@ -1,0 +1,23 @@
+<?php
+$parzyste="";
+$nieparzyste="";
+if(isset($_POST['submit'])){
+    $n=$_POST['number'];
+    for($i=1;$i<=$n;$i++){
+        if($i%2==0) {
+            $parzyste.=$i."," ;
+        }else{
+            $nieparzyste.=$i."," ;
+        }
+    }
+    echo "parzyste:".$parzyste;
+    echo "<br/>";
+    echo "nieparzyste:".$nieparzyste;
+}
+?>
+<form
+    method="post">
+    type="text" name="number" required>
+    <input type="submit" name="submit">
+
+</form>
