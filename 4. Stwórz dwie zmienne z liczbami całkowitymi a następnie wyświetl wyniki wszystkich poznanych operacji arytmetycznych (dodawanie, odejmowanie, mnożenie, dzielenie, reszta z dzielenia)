@@ -1,0 +1,10 @@
+<?php
+$a = 10;
+$b = 5;
+
+echo "Dodawanie: " . ($a + $b) . "<br>";
+echo "Odejmowanie: " . ($a - $b) . "<br>";
+echo "Mnożenie: " . ($a * $b) . "<br>";
+echo "Dzielenie: " . ($a / $b) . "<br>";
+echo "Reszta z dzielenia: " . ($a % $b);
+?>
