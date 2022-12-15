@@ -1,0 +1,12 @@
+<?php
+    $x = 2;
+    $b = 10;
+
+
+    if ($x > $b)
+        echo "$x jest wieksze od $b";
+    else if ($b > $x)
+        echo "$b jest wieksze od $x";
+
+
+        ?>
