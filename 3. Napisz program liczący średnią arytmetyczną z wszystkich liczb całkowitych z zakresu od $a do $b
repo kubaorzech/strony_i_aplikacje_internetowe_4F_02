@@ -1,23 +1,12 @@
 <?php
-$parzyste="";
-$nieparzyste="";
-if(isset($_POST['submit'])){
-    $n=$_POST['number'];
-    for($i=1;$i<=$n;$i++){
-        if($i%2==0) {
-            $parzyste.=$i."," ;
-        }else{
-            $nieparzyste.=$i."," ;
-        }
-    }
-    echo "parzyste:".$parzyste;
-    echo "<br/>";
-    echo "nieparzyste:".$nieparzyste;
-}
-?>
-<form
-    method="post">
-    type="text" name="number" required>
-    <input type="submit" name="submit">
 
-</form>
+$a = 3;
+$b = 8;
+
+$sum = 0;
+for ($i = $a; $i <= $b; $i++) {
+    $sum += $i;
+}
+$avg = $sum/($b - $a + 1);
+
+echo "Średnia arytmetyczna liczb od $a do $b wynosi: $avg";

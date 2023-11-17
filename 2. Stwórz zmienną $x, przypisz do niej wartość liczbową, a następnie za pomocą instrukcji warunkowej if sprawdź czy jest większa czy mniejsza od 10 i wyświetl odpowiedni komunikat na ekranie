@@ -1,12 +1,13 @@
 <?php
-    $x = 2;
-    $b = 10;
+$x = 4;
 
-
-    if ($x > $b)
-        echo "$x jest wieksze od $b";
-    else if ($b > $x)
-        echo "$b jest wieksze od $x";
-
-
-        ?>
+if($x > 10){
+    echo "Zmienna x jest większa od 10";
+}
+else if($x < 10){
+    echo "Zmienna x jest mniejsza od 10";
+}
+else {
+    echo "Zmienna x jest równa 10";
+}
+?>
